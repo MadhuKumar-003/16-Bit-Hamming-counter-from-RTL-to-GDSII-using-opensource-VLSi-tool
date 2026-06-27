@@ -1,0 +1,55 @@
+$date
+	Fri Jun 26 21:17:07 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_hamming $end
+$var wire 5 ! out [4:0] $end
+$var reg 16 " in [15:0] $end
+$scope module uut $end
+$var wire 16 # in [15:0] $end
+$var reg 5 $ out [4:0] $end
+$var integer 32 % i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b10000 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10000
+b1 !
+b1 $
+b10000 %
+b1 "
+b1 #
+#20000
+b10000 %
+b1000 !
+b1000 $
+b1010101010101010 "
+b1010101010101010 #
+#30000
+b10000 %
+b101 !
+b101 $
+b1110000100100 "
+b1110000100100 #
+#40000
+b10000 %
+b10000 !
+b10000 $
+b1111111111111111 "
+b1111111111111111 #
+#50000
